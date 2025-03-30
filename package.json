@@ -12,6 +12,9 @@
     "deploy": "bun pages:build && wrangler pages deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"
   },
+  "engines": {
+    "node": ">=18.18.0 <22.0.0"
+  },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
